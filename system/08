@@ -1,0 +1,4 @@
+~/.ssh/authorized_keys
+~/.ssh/authorized_keys2
+
+# cat /etc/ssh/sshd_config | grep AuthorizedKeysFile | awk '{print $2 "\n" $3}'

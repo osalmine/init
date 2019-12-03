@@ -1,0 +1,19 @@
+RED='\033[0;31m'
+NC='\033[0m'
+day=$(date +'%d/%m/%Y')
+
+cpu=$(lscpu | grep "Model name" | cut -d: -f2 | awk '{$1=$1};1')
+echo -e "The computer's cpu is ${RED}${cpu}${NC}."
+
+RAM=$(cat /proc/meminfo | grep MemTotal | cut -d: -f2 | awk '{$1=$1};1')
+echo -e "You have a total of ${RED}${RAM}${NC} RAM available."
+
+os=$(uname -o)
+echo -e "Your OS is ${RED}${os}${NC}."
+
+echo -e "\n"
+while true; do
+	time=$(date +'%T')
+	echo -e "Current date is: ${RED}${day}${NC} and time ${RED}${time}${NC}."
+	sleep 1
+done

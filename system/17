@@ -1,0 +1,4 @@
+ssh [username]@[ip]
+
+# ssh osalmine@10.12.181.59
+# ip with "hostname -I"
