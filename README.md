@@ -8,4 +8,4 @@ This project covers the basics of network and system administration. It is divid
 
 System and scripting parts were done for Debian VM.
 
-See **[subject](subject.en.pdf)** for all of the tasks.
+See **[subject](init.en.pdf)** for all of the tasks.
