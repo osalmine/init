@@ -1,5 +1,9 @@
 # init
 
+Grade:
+
+![init grade](https://badge42.herokuapp.com/api/project/osalmine/init)
+
 This project covers the basics of network and system administration. It is divided into three categories:
 
 - network
